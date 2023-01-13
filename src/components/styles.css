@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.Content{
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+    margin-top: 60px;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+.Header nav a {
+    color: red;
+}
+
+img {
+    max-width: 100%;
+}
+
+.Content {
+    margin-bottom: 100px;
+}
+
+.Footer {
+    background-color: teal;
+    text-align: center;
+    color: white;
+}
+
+.Content{
+    position: relative;
+    padding-bottom: 20px;
+    min-height: 70vh;
+    max-width: 1920px;
+    margin: auto;
+}
+
+footer {
+    background-color: rgb(35, 87, 87);
+    padding: 40px;
+}
+
+form {
+    padding: 1.2rem;
+    width: 60%;
+    margin: auto;
+}
+
+label, textarea, input,span{
+    margin-bottom: 1.2rem;
+}
+
+form select {
+    margin-top: 1.2rem ;
+    margin-bottom: 1.2rem;
+}
+
+.formu h2, p{
+    text-align: center;
+}
