@@ -1,5 +1,5 @@
 async function find() {
-    return fetch('http://localhost:2022/api/generos')
+    return fetch('http://back-portfolio-lac.vercel.app/api/generos')
         .then(response => response.json())
 }
 
