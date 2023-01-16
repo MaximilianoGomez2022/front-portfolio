@@ -20,7 +20,7 @@ function HomePage(){
                 {peliculas.map(({_id, name, img}) =>
                 <div key={_id} className="col-md-4">
                     {name}  
-                    <img src={`../public/${img}`}/>
+                    <img src={`./public/${img}`}/>
                 </div>
                 )}
             </div>
