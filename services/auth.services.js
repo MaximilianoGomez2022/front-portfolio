@@ -20,7 +20,7 @@ async function login(mail, password) {
 }
 
 async function logout() {
-    return fetch('http://back-portfolio-lac.vercel.app/api/users/logout', {
+    return fetch('https://back-portfolio-lac.vercel.app/api/users/logout', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
