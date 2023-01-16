@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react"
 import * as peliculasServices from "../services/peliculas.services.js"
-const cargarImagen = require.context("./public", true);
 
 function HomePage(){
 
@@ -21,7 +20,7 @@ function HomePage(){
                 {peliculas.map(({_id, name, img}) =>
                 <div key={_id} className="col-md-4">
                     {name}  
-                    <img src={cargarImagen(`./${img}`)} alt="portada de la pelicula"/>
+                    <img src={`${img}`} alt="portada de la pelicula"/>
                 </div>
                 )}
             </div>
