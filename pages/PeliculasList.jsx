@@ -25,7 +25,7 @@ function PeliculasListPage(){
                     <Link to={`/peliculas/${_id}`} className="btn btn-secondary me-3">Ver</Link> 
                     <Link to={`/peliculas/${_id}/editar`} className="btn btn-primary me-3">Editar</Link><Link to={`/peliculas/${_id}/eliminar`} className="btn btn-danger">Eliminar</Link>
                     </div>
-                    <img src={`./public/${img}`}/>
+                    <img src={`${img}`}/>
                     <p>Género: {genero}</p>
                 </div>
                 )}
